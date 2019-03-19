@@ -1,0 +1,456 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+ }
+ 
+ @font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-500-webfont.woff) format("woff");
+ }
+ 
+ @font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-700-webfont.woff) format("woff");
+ }
+
+body{
+    background:url('https://github.com/akempffer/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true'); 
+    font-family: 'Museo', sans-serif;
+  }
+  
+  a{
+    text-decoration: none;
+    padding: 15px;
+    color: gray;
+    text-transform: uppercase;
+    
+  }
+  
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  
+  #left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 20%;
+  }
+  
+  #right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+  }
+  
+  .icon {
+      width: 50px;
+  }
+  
+  .slider{
+   position: relative;
+   background: url('http://images5.fanpop.com/image/photos/24500000/Walt-Dusney-Animation-Tramp-Lady-walt-disney-characters-24543601-2560-1920.jpg');
+    display: flex;
+    height: 40vh;
+    background-size: cover;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 10px solid white;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .designer{
+    background:rgba(128,128,128, 0.6);
+    width: 100%;
+    text-align: right;
+    color: white;
+    padding: 10px 10px;
+  }
+  
+  .arrow img{
+    position: absolute;
+    width: 6%;
+    top: 40%;
+  }
+  
+  #larrow img{
+   left:-2.4%;
+  }
+  
+  #rarrow img{
+    right:-2.4%;
+  }
+  
+  
+  #gallery{
+    display: flex;
+    align-items: center;
+  }
+  
+  p{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 18px;
+  }
+  #card{
+    flex-direction: columns;
+    width: 20%;
+    padding: 2%;
+  } 
+  
+  .cat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: url('https://github.com/akempffer/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+    color: white;
+    padding: 10px 50px;
+    background-color: #666;
+    background-blend-mode: overlay;
+    width: 20%
+  }
+  
+  .p{
+    text-align: center;
+  }
+  
+  #button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  
+  body{
+    background:url('https://github.com/akempffer/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true'); 
+  }
+  
+  a{
+    text-decoration: none;
+    padding: 15px;
+    color: gray;
+    text-transform: uppercase;
+    
+  }
+  
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  
+  .big{
+    display: flex;
+  }
+  
+  .slider{
+   position: relative;
+   background: url('http://images5.fanpop.com/image/photos/24500000/Walt-Dusney-Animation-Tramp-Lady-walt-disney-characters-24543601-2560-1920.jpg');
+    display: flex;
+    background-size: cover;
+    margin-top: 10px;
+    border: 10px solid white;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+  }
+  
+  .icon {
+      width: 50px;
+  }
+  
+  .right{
+   position: relative;
+   background: white;
+   display: flex;
+   height: 10vh;
+   background-size: cover;
+   width: 70%;
+   margin: 0 auto;
+   margin-top: 20px;
+   border: 10px solid white;
+   align-items: flex-end;
+   justify-content: flex-end;
+  }
+  
+  #slide{
+   position: relative;
+   display: flex;
+   background-size: cover;
+   margin-top: 20px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+   height: 100vh;
+   width: 70%; 
+  }
+  
+  .designer{
+    background:rgba(128,128,128, 0.6);
+    width: 98%;
+    text-align: right;
+    color: white;
+    padding: 10px 10px;
+  }
+  
+  .parrow img{
+    position: absolute;
+    width: 6%;
+    top: 40%;
+  }
+  
+  #karrow img{
+   left:-2.4%;
+  }
+  
+  #qarrow img{
+    right:-2.4%;
+  }
+  
+  #why{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 30%;
+    background: white;
+    margin: 30px;
+    padding: 10px 10px;
+  }
+  
+  
+  .three{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .th{
+    width: 25%;
+    border: 5px solid white;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  #port{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .eight{
+    flex-direction: columns;
+    width: 20%;
+    padding: 2%;
+  } 
+  
+  
+  footer{
+    background: url('https://github.com/akempffer/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background-color: rgba(169,169,169,1);
+    background-blend-mode:multiply;
+    text-align: center;
+    height:35vh;
+  }
+  
+  #twee{
+    background: #666;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #twee p{
+    padding: 5px;
+    color: white;
+  }
+  
+  #twee img{
+    width: 3%;
+  }
+  
+  .time{
+    font-size: 12px;
+  }
+  
+  #col{
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+  
+  .fleft p{
+    color: white;
+  }
+  
+  #search{
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(169,169,169);
+  }
+  
+  #search img{
+    color: rgb(169,169,169);
+    width: 5%;
+  }
+  
+  
+  
+  .link a{
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .col{
+    width:32%;
+    padding: 1%;
+  }
+  
+  h3{
+    text-transform: uppercase;
+    text-align:center;
+    font-size: 16px;
+    padding: 1%;
+  }
+  
+  .up, .down{
+    display:flex;
+    align-items:center;
+      justify-content:center;
+  }
+  
+  .up img, .down img{
+    width:15%;
+    margin:1.3%;
+  }
+
+  big{
+    display: flex;
+  }
+  
+  .slider{
+   position: relative;
+   background: url('http://images5.fanpop.com/image/photos/24500000/Walt-Dusney-Animation-Tramp-Lady-walt-disney-characters-24543601-2560-1920.jpg');
+    display: flex;
+    background-size: cover;
+    margin-top: 10px;
+    border: 10px solid white;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 50vh;
+    width: 90%;
+  }
+  
+  .icon {
+      width: 50px;
+  }
+  
+  .right{
+   position: relative;
+   background: white;
+   display: flex;
+   height: 10vh;
+   background-size: cover;
+   width: 70%;
+   margin: 0 auto;
+   margin-top: 20px;
+   border: 10px solid white;
+   align-items: flex-end;
+   justify-content: flex-end;
+  }
+  
+  #slide{
+   position: relative;
+   display: flex;
+   background-size: cover;
+   margin-top: 20px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+   height: 100vh;
+   width: 70%; 
+  }
+  
+  .designer{
+    background:rgba(128,128,128, 0.6);
+    width: 98%;
+    text-align: right;
+    color: white;
+    padding: 10px 10px;
+  }
+  
+  .parrow img{
+    position: absolute;
+    width: 6%;
+    top: 40%;
+  }
+  
+  #karrow img{
+   left:-2.4%;
+  }
+  
+  #qarrow img{
+    right:-2.4%;
+  }
+  
+  #why{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 30%;
+    background: white;
+    margin: 30px;
+    padding: 10px 10px;
+  }
+  
+  
+  .three{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .th{
+    width: 25%;
+    border: 5px solid white;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  #port{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .eight{
+    flex-direction: columns;
+    width: 20%;
+    padding: 2%;
+  } 
